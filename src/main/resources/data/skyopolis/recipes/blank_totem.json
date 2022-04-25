@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "BBB",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:clay_ball"
+    } ,
+    "C": {
+      "item": "minecraft:clay"
+    }
+  },
+  "result": {
+    "item": "skyopolis:blank_totem"
+  }
+}

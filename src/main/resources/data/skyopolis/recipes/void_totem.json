@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "voidtotem"
+    }
+  ],
+  "ingredient": {
+    "item": "skyopolis:blank_totem"
+  },
+  "result": "voidtotem:totem_of_void_undying",
+  "experience": 1,
+  "cookingtime": 1600
+}

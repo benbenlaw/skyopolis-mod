@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SB",
+    "BB"
+  ],
+  "key": {
+    "S": {
+      "item": "skyopolis:stone_pebble"
+    },
+    "B": {
+      "item": "skyopolis:blank_pebble"
+    }
+  },
+  "result": {
+    "item": "minecraft:cobblestone"
+  }
+}

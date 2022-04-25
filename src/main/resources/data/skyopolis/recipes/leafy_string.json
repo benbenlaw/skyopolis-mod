@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:leaves"
+    }
+  },
+  "result": {
+    "item": "skyopolis:leafy_string"
+  }
+}

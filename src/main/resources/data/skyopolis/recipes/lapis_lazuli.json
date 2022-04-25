@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LLL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "skyopolis:lapis_lazuli_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:lapis_lazuli"
+  }
+}
