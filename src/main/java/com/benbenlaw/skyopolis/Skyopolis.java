@@ -2,6 +2,7 @@ package com.benbenlaw.skyopolis;
 
 import com.benbenlaw.skyopolis.block.ModBlocks;
 import com.benbenlaw.skyopolis.item.ModItems;
+import com.benbenlaw.skyopolis.world.structures.ModStructures;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -32,6 +33,7 @@ public class Skyopolis {
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+        ModStructures.register(eventBus);
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading

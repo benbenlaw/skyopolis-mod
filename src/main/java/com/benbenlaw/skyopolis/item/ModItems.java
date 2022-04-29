@@ -1,6 +1,8 @@
 package com.benbenlaw.skyopolis.item;
 
 import com.benbenlaw.skyopolis.Skyopolis;
+import com.benbenlaw.skyopolis.item.custom.FlowerLootBoxItem;
+import com.benbenlaw.skyopolis.item.custom.SaplingLootBoxItem;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ShearsItem;
@@ -64,10 +66,19 @@ public class ModItems {
     public static final RegistryObject<Item> LAPIS_LAZULI_NUGGET = ITEMS.register("lapis_lazuli_nugget", () -> new Item(
             new Item.Properties().tab(ModCreativeModTab.SKYOPOLIS)));
 
-    public static final RegistryObject<Item> FLOWER_LOOT_BOX = ITEMS.register("flower_loot_box", () -> new Item(
+    public static final RegistryObject<Item> NETHER_PEBBLE = ITEMS.register("nether_pebble", () -> new Item(
             new Item.Properties().tab(ModCreativeModTab.SKYOPOLIS)));
 
-    public static final RegistryObject<Item> SAPLING_LOOT_BOX = ITEMS.register("sapling_loot_box", () -> new Item(
+    public static final RegistryObject<Item> SOUL_SAND_DUST = ITEMS.register("soul_sand_dust", () -> new Item(
+            new Item.Properties().tab(ModCreativeModTab.SKYOPOLIS)));
+
+    public static final RegistryObject<Item> BLANK_GEM = ITEMS.register("blank_gem", () -> new Item(
+            new Item.Properties().tab(ModCreativeModTab.SKYOPOLIS)));
+
+    public static final RegistryObject<Item> FLOWER_LOOT_BOX = ITEMS.register("flower_loot_box", () -> new FlowerLootBoxItem(
+            new Item.Properties().tab(ModCreativeModTab.SKYOPOLIS)));
+
+    public static final RegistryObject<Item> SAPLING_LOOT_BOX = ITEMS.register("sapling_loot_box", () -> new SaplingLootBoxItem(
             new Item.Properties().tab(ModCreativeModTab.SKYOPOLIS)));
 
     public static final RegistryObject<Item> MUSHROOM_BALL = ITEMS.register("mushroom_ball", () -> new Item(

@@ -1,0 +1,10 @@
+{
+  "type": "skyopolis:oak_island",
+  "config": {
+    "start_pool": "skyopolis:acacia_island",
+    "size": 1
+  },
+  "biomes": "#minecraft:has_structure/mineshaft",
+  "adapt_noise": true,
+  "spawn_overrides": {}
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LL",
+    "LL"
+  ],
+  "key": {
+    "L": {
+      "item": "skyopolis:nether_pebble"
+    }
+  },
+  "result": {
+    "item": "minecraft:netherrack"
+  }
+}
